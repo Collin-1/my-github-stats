@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.title {
+    text-align: center;
+    color: #5d4db5;
+    font-size: 24px;
+    margin-bottom: 30px;
+    background-color: #ffd700;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.core-skills {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.skill-box {
+    text-align: center;
+    border: 2px solid #5d4db5;
+    border-radius: 20px;
+    padding: 15px;
+    width: 200px;
+}
+
+.skill-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5d4db5;
+}
+
+.skill-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.project-card {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #5d4db5;
+}
+
+.project-title {
+    color: #5d4db5;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-list li {
+    margin: 5px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.skill-list li:before {
+    content: "•";
+    color: #5d4db5;
+    position: absolute;
+    left: 0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        Skills Learned in Data Engineering Program
+    </div>
+
+    <div class="core-skills">
+        <div class="skill-box">
+            <div class="skill-count">15</div>
+            <div class="skill-label">Projects Completed</div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-count">4</div>
+            <div class="skill-label">Core Technologies</div>
+        </div>
+        <div class="skill-box">
+            <div class="skill-count">50+</div>
+            <div class="skill-label">Skills Acquired</div>
+        </div>
+    </div>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <div class="project-title">Programming Fundamentals</div>
+            <ul class="skill-list">
+                <li>Object-Oriented Programming</li>
+                <li>Test-Driven Development</li>
+                <li>Error Handling</li>
+                <li>Clean Code Practices</li>
+                <li>Function Design</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">Data Handling</div>
+            <ul class="skill-list">
+                <li>File I/O Operations</li>
+                <li>JSON Processing</li>
+                <li>Pandas Operations</li>
+                <li>Data Validation</li>
+                <li>Data Cleaning</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">Database Skills</div>
+            <ul class="skill-list">
+                <li>SQL & PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Database Migrations</li>
+                <li>SQLAlchemy ORM</li>
+                <li>Data Modeling</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">API & Integration</div>
+            <ul class="skill-list">
+                <li>REST API Development</li>
+                <li>API Consumption</li>
+                <li>HTTP Methods</li>
+                <li>Authentication</li>
+                <li>Error Handling</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">DevOps & Tools</div>
+            <ul class="skill-list">
+                <li>Docker</li>
+                <li>Git Version Control</li>
+                <li>Environmental Variables</li>
+                <li>RabbitMQ</li>
+                <li>Apache Airflow</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">Testing & Quality</div>
+            <ul class="skill-list">
+                <li>Unit Testing</li>
+                <li>Test Coverage</li>
+                <li>Mocking & Spies</li>
+                <li>Assertion Writing</li>
+                <li>Documentation</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
